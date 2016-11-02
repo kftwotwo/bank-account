@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" media="all">
+    <link rel="stylesheet" href="css/sytles.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>Bank Account</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="jumbotron">
+          <h1>Bank Account</h1>
+        </div>
+        <form class="create">
+          <h2>Create an Account</h2>
+          <div class="input-group col-md-6">
+            <label>Name</label>
+            <input type="text" class="form-control" id="name">
+          </div><br>
+
+          <div class="input-group col-md-6">
+            <label>Initial Deposit</label>
+            <input type="text" class="form-control" id="fistDeposit">
+          </div><br>
+          <button type="submit" class="btn btn-primary">Create Account</button>
+        </form>
+
+        <form class="view">
+          <h2>Deposit or Withdrawl</h2>
+          <div class="input-group col-md-6">
+            <label>Deposit</label>
+            <input type="text" class="form-control" id="secDeposit">
+          </div><br>
+
+          <div class="input-group col-md-6">
+            <label>Withdrawl</label>
+            <input type="text" class="form-control" id="withdrawl">
+          </div><br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <div class="output">
+            <h2>Hello<span id=userName></span></h2>
+            <h3>Your current balance is:<span id=balance></span></h3>
+          </div>
+        </form>
+
+
+
+      </div><!--row-->
+    </div><!--container-->
+  </body>
+</html>
