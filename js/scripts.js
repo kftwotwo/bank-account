@@ -25,7 +25,8 @@ $(document).ready(function(){
     newAccount.balance -= parseFloat(withdrawl);
     $("#userName").text(newAccount.userName);
     $("#balance").text(newAccount.balance.toFixed(2));
-    $(".create").fadeOut("slow");
+    $(".view").fadeIn("slow");
+    $(".create").hide();
     $("#output").fadeIn("slow");
 
 

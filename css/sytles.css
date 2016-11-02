@@ -13,3 +13,6 @@ form {
 #output {
   display: none;
 }
+.view {
+  display: none;
+}
